@@ -31,7 +31,7 @@ sequelize
   .then(() => console.log("All models synchronized"))
   .catch((err: any) => console.error("Model sync failed:", err));
 
-import userRoutes from "../api/routes/user.routes";
+import userRoutes from "./api/routes/user.routes";
 import authRoutes from "./api/routes/auth.routes";
 import schemeRoutes from "./api/routes/scheme.route"
 

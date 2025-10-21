@@ -1,0 +1,12 @@
+# Authentication urls:
+
+# signup: http://localhost:5000/api/auth/signup
+# login : http://localhost:5000/api/auth/login
+
+# UserProfile:
+# update:http://localhost:5000/api/auth/users/update-profile  
+# getprofile:http://localhost:5000/api/users/profile/:id
+
+Scheme:
+create :http://localhost:5000/api/schemes/create-scheme
+update :http://localhost:5000/api/schemes/update-scheme/:id

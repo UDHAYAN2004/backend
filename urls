@@ -1,7 +1,0 @@
-Authentication urls:
-
-signup: http://localhost:5000/api/auth/users/signup
-login : http://localhost:5000/api/auth/users/login
-
-UserProfile:
-
