@@ -60,7 +60,8 @@ export const UserFactory=(sequelize:Sequelize)=>{
          role:{
             type:DataTypes.STRING,
             allowNull:false,
-            unique:false
+            unique:false,
+            defaultValue:'User'
          },
          phone:{
             type:DataTypes.STRING(20),
